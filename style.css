@@ -1,0 +1,37 @@
+.header {
+    height: 200px;
+    color: rgb(63, 134, 182);
+    background-color: whitesmoke;
+    font-size: 40px;
+    
+  }
+  
+  .footer {
+    background-color: silver;
+    padding:10px;
+    color:white;
+    border-top:10px navy; 
+  }
+  
+  .blue{
+    color: rgb(63, 134, 182);
+  }
+  
+  .plot{
+    align: middle;
+    padding: 90px
+  }
+  
+  .center {
+    text-align: center;
+    border: 3px navy;
+    background-color: whitesmoke;
+
+  }
+
+
+  .para{
+    text-align: center;
+    padding:40px;
+
+  }

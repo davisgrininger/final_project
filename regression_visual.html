@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>MLB Salary Prediction</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html"> 
+                        <span class="header">MLB Salary Analysis</span></a>
+                    </div>
+            
+                    <div class="nav navbar-nav navbar-right">
+                      <li><a href="overview.html"> Overview</a></li>
+                      <li><a href="Analysis.html"> Analysis</a></li>
+                      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visuals<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="regression_visual.html">Linear Regression</a></li>
+                                <li><a href="cnn_visual.html">Convulutional Neural Network</a></li>
+                                <li><a href="ronald.html">Ronald Acuña Jr. Test</a></li>
+                            </ul>
+                        </li>
+                                                                  
+                    </div>
+                </div>      
+             </nav>
+
+
+
+
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Linear regression Model</h1>
+            <p>With a linear regression model and a large  offensive dataset of baseball players from 1985 - 2016 of player that had qualifying statistics, we attain a mediocre of 0.14. This score is credited to the large dataset that is too broad to predict salaries for a given player.</p>
+          </div>
+        </div>
+            <div class = plot>
+                <div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" ><img  src="Output_Plots/Residual_Plot.png" style="width:100%" alt=""  ></a></div>
+                </div>
+            </div>
+            
+        <footer>
+          <div class = "footer">
+                <p style = "text-align: center"> Davis Grininger 2019</p>
+            </div>
+      </footer>
+          
+
+          
+</body>
+</html>

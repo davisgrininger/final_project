@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather Analysis Visualization</title>
+</head>
+<body>
+
+        <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html"> 
+                        <span class="header">MLB Salary Analysis</span></a>
+                    </div>
+            
+                    <div class="nav navbar-nav navbar-right">
+                      <li><a href="overview.html"> Overview</a></li>
+                      <li><a href="Analysis.html"> Analysis</a></li>
+                      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Visuals<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="regression_visual.html">Linear Regression</a></li>
+                                <li><a href="cnn_visual.html">Convulutional Neural Network</a></li>
+                                <li><a href="ronald.html">Ronald Acuña Jr. Test</a></li>
+                            </ul>
+                        </li>
+                                                                  
+                    </div>
+                </div>      
+             </nav>
+      
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4" class = "blue">Overview</h1>
+                </div>
+            </div>
+            <p class = "para">
+                The purpose of this project was to analyze past data and utilize machine learning to predict the salaries of Major League Baseball players fo a give year. With data very accessible and professional sports analyzing and critiquing ever statistic to get the most out of the athletes, a new space has opened the doors to making smart financial decisions through the use of data and technology. In 2004, we saw the birth of "Moneyball" or sabermetrics a strategy created by general manager Billy Beane and the front office of the Oakland Athletics. This was a data-focused method of finding players that would be able to perform above their monetary value. This strategy is still used today and has been of great value, especially to small market teams. However, this is only the beggining and the next step would be to merge data science/machine learning with the sports world; and it has already begun.</p>
+                <p class = "para">The use of analytics is not only beneficial on the field but has been increasingly prevelant in the recent years. As salaries continue to increase (see figure below) due to salary caps and cost of living adjustments, many teams will want to seek out players as Billy Beane did in 2004, evaluting their value on the field compared with the financial impact of the club.</p>
+                <p class = "para"> The <a href="http://www.seanlahman.com/baseball-archive/statistics/">Sean Lahman Baseball database </a> was used in this project. His Baseball Archive web site was one of the earliest sources for baseball information on the Internet, and he headed the first significant effort to make a database of baseball statistics freely available to the general public. Lahman also contributed to pioneering efforts at websites like Baseball-Reference.com. Python libraries such as Pandas, Numpy, sklearn and, Tensorflow were used in the data processing of this project. After I trained two models with a large set of data of a variety of players, I trained a model that would be more specific to predicting one certain player's salary. That player is Ronald Acuña Jr. and currently he is one of the brightest yound stars in the Major League. After his first two seasons, his statistics rival those of the 430 million dollar man, Mike Trout. </p>
+           
+      
+                <div>
+                        <img  src="Output_Plots/Salary_over_time.png" style="width:100%" alt=""  >
+                
+                </div>
+                  
+      
+              <footer>
+                <div class = "footer">
+                        <p style = "text-align: center"> Davis Grininger 2019</p>
+                    </div>
+            </footer>
+                
+      
+                
+      </body>
+      </html>
